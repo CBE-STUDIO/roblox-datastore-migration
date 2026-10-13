@@ -1,0 +1,37 @@
+# ---- Secrets: never commit these ----
+key.txt
+*key*.txt
+roblox key data.txt
+*.key
+.env
+.env.*
+
+# ---- Migration output / private player data ----
+old_backup/
+mig/
+migration_data/
+*.jsonl
+ops.json
+applied_keys.jsonl
+migrate_fails.txt
+conflicts.txt
+build_report.txt
+worker.log
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- keep the committed example files (overrides above) ----
+!examples/**
+!examples/*.sample.json
+!examples/*.sample.jsonl

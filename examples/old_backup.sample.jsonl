@@ -1,0 +1,5 @@
+{"id": "123456789", "value": {"Minutes": 39536, "Cash": 0}, "_store": "TimeStats"}
+{"id": "987654321", "value": {"Minutes": 1024, "Cash": 50}, "_store": "TimeStats"}
+{"id": "555555555", "error": "HTTP 429", "_store": "TimeStats"}
+{"id": "AllIds", "value": [123456789, 987654321], "_store": "AllPlayerIds_v1_111111111111"}
+{"id": "123456789", "value": {"Gold": 5000, "GiftedVIP": true, "Items": ["hat_a", "hat_b"]}, "_store": "PlayerData_v1_111111111111"}

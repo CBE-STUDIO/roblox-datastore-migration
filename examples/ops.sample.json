@@ -1,0 +1,8 @@
+[
+  {"store": "TimeStats", "key": "123456789", "mode": "set", "value": {"Minutes": 39536, "Cash": 0}},
+  {"store": "TimeStats", "key": "987654321", "mode": "set", "value": {"Minutes": 1024, "Cash": 50}},
+  {"store": "Donation", "key": "123456789", "mode": "set", "value": {"Raised": 100, "Donated": 0}},
+  {"store": "PlayerData_v1_222222222222", "key": "123456789", "mode": "set", "value": {"Gold": 5000, "GiftedVIP": true, "Items": ["hat_a", "hat_b"]}},
+  {"store": "AllPlayerIds_v1_222222222222", "key": "AllIds", "mode": "set", "value": [123456789, 987654321]},
+  {"store": "Donation Board v4", "key": "donationboard@donations", "mode": "set", "value": {"123456789": {"Raised": 100, "Donated": 20, "History": []}}}
+]
