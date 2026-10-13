@@ -60,6 +60,32 @@ xU6ZP...your...key...here
 
 `scripts/config.py` points at this file. **Do not** put the key inside the repo.
 
+### Bonus: check the key's format (safe)
+
+Not sure you copied the key correctly? Run this — it reports the format **without
+printing the secret**:
+
+```bash
+python scripts/show_key.py            # uses API_KEY_FILE from config.py
+python scripts/show_key.py --show     # also prints a MASKED preview (first/last 4 chars)
+```
+
+Example output:
+
+```
+key length      : 964
+non-empty lines : 1
+multiple of 4   : True
+ends with '='   : True
+base64 charset  : True
+base64 decodes  : yes (722 bytes)
+decoded is text : False
+```
+
+> ℹ️ **The key is base64, but you do NOT decode it.** For Roblox the base64 text
+> **is** the credential — you send it exactly as-is in the `x-api-key` header.
+> Decoding only reveals the raw binary bytes underneath, which are not readable.
+
 ## 4. Check everything works
 
 From the repository root, run:
@@ -67,9 +93,6 @@ From the repository root, run:
 ```bash
 python scripts/old_backup.py --selftest
 ```
-
-> If your copy of `old_backup.py` does not have `--selftest`, just run it and
-> watch the first lines — it prints `self-test OK` before doing anything else.
 
 You should see something like:
 

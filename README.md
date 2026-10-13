@@ -78,6 +78,7 @@ roblox-datastore-migration/
 │   └── 10-GAMEPASSES.md
 ├── scripts/
 │   ├── config.example.py    ← copy to config.py, fill in your IDs
+│   ├── show_key.py          ← check your key file's format (safe)
 │   ├── old_backup.py
 │   ├── retry_errors.py
 │   ├── build_ops.py
