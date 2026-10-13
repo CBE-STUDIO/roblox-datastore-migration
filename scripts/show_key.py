@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 
 """
 show_key.py -- safely inspect your Roblox Open Cloud API key file.
 
