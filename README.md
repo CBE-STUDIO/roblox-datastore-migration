@@ -10,8 +10,12 @@ Written for **beginners**. If you can copy-paste and run a command, you can do t
 
 > ### 📖 New here? Start with the visual guide
 > A full **step-by-step walkthrough** for Windows &amp; macOS — what to install, what to click, and **copy-paste terminal commands** in order.
->
-> **[➜ Open the Migration Guide](https://cbe-studio.github.io/roblox-datastore-migration/guide.html)**
+
+<p align="center">
+  <a href="https://cbe-studio.github.io/roblox-datastore-migration/guide.html">
+    <img src="https://img.shields.io/badge/-%F0%9F%93%96%20Open%20the%20Migration%20Guide-1f6feb?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Open the Migration Guide" />
+  </a>
+</p>
 
 > **Credit / License:** This project is by **CBE-STUDIO**. See [LICENSE](LICENSE), [NOTICE](NOTICE) and [CITATION.cff](CITATION.cff).
 > If you reuse this, **you must keep the credit**. See [Crediting this work](#crediting-this-work).
