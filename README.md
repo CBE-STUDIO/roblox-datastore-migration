@@ -8,6 +8,11 @@
 
 Written for **beginners**. If you can copy-paste and run a command, you can do this.
 
+> ### 📖 New here? Start with the visual guide
+> A full **step-by-step walkthrough** for Windows &amp; macOS — what to install, what to click, and **copy-paste terminal commands** in order.
+>
+> **[➜ Open the Migration Guide](https://cbe-studio.github.io/CBE-STUDIO/guide.html)**
+
 > **Credit / License:** This project is by **CBE-STUDIO**. See [LICENSE](LICENSE), [NOTICE](NOTICE) and [CITATION.cff](CITATION.cff).
 > If you reuse this, **you must keep the credit**. See [Crediting this work](#crediting-this-work).
 
@@ -43,7 +48,7 @@ This toolkit **copies every saved key** from the old experience into the new one
 
 ## Quick start (the short version)
 
-> Full beginner walkthrough: read the docs **in order**, `docs/01-OVERVIEW.md` → `docs/10-GAMEPASSES.md`.
+> Full beginner walkthrough: read the docs **in order**, `docs/01-OVERVIEW.md` → `docs/10-GAMEPASSES.md`, or follow the [online Migration Guide](https://cbe-studio.github.io/CBE-STUDIO/guide.html).
 
 1. **Get an Open Cloud API key** (see [docs/02-REQUIREMENTS.md](docs/02-REQUIREMENTS.md)).
 2. **Set up Python** (`docs/03-SETUP.md`).
