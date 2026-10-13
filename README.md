@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/cbe-studio-logo.png" width="320" alt="CBE Studio logo" />
+</p>
+
 # Roblox DataStore Migration Toolkit
 
 **Move all your players' saved data from one Roblox experience to another — safely, without losing anything, without touching the old game, and with a full backup first.**
